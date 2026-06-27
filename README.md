@@ -163,21 +163,6 @@ id.ilhamsholahuddin.hearlink
 
 ---
 
-## 🗄️ Skema Database (Room)
-
-| Entity | Fields |
-|--------|--------|
-| **User** | `id`, `name`, `photoUri`, `bloodType`, `allergy`, `updatedAt` |
-| **EmergencyContact** | `id`, `name`, `phone`, `hasWhatsApp` |
-| **Transcript** | `id`, `title`, `content`, `createdAt` |
-| **FavoritePhrase** | `id`, `phrase`, `source` |
-| **CustomPhrase** | `id`, `phrase`, `createdAt` |
-| **PhraseHistory** | `id`, `phrase`, `usedAt` |
-| **ConversationSession** | `id`, `title`, `createdAt`, `durationMs` |
-| **ConversationTurn** | `id`, `sessionId`, `speakerLabel`, `text`, `timestampMs` |
-
----
-
 ## 🔐 Permissions
 
 Aplikasi memerlukan permission berikut:
@@ -239,30 +224,6 @@ Aplikasi memerlukan permission berikut:
 ╚══════════════════════════════════════════════════════╝
 ```
 
----
-
-## 🗺️ Roadmap
-
-| Sprint | Status | Fitur |
-|--------|--------|-------|
-| Sprint 1 | ✅ Selesai | Setup project, Material 3, Navigation Compose, MVVM, Room |
-| Sprint 2 | ✅ Selesai | Live Caption, Sound Alert, Transcript Saver |
-| Sprint 3 | ✅ Selesai | Communicator (Quick Phrase, Custom TTS, Favorite, History) |
-| Sprint 4 | ✅ Selesai | Sign Library, Smart Conversation Mode |
-| Sprint 5 | ✅ Selesai | Deaf ID Card, Emergency Contact, Emergency SOS |
-| Sprint 6 | ✅ Selesai | Finalisasi, Bug fixing, Optimasi UI/UX |
-
-### 🔮 Rencana Versi 2.0
-
-- 🤖 **AI Conversation Summary** — Rangkum transkrip panjang secara otomatis
-- 🔑 **AI Keyword Highlight** — Sorot kata kunci penting dalam transkrip
-- 🔊 **Pengenalan Suara Spesifik** — Alarm, bel pintu, tangisan bayi (TensorFlow Lite)
-- ☁️ **Cloud Backup** — Sinkronisasi data transkrip ke cloud
-- ⌚ **Wear OS Support** — Notifikasi Sound Alert di smartwatch
-- 🧏 **Multi-bahasa Sign Library** — Tambahan SIBI dan ASL
-
----
-
 ## 👨‍💻 Developer
 
 | | |
@@ -270,32 +231,8 @@ Aplikasi memerlukan permission berikut:
 | **Nama** | Ilham Sholahuddin |
 | **NIM** | 231011403034 |
 | **GitHub** | [@ilhamsholahuddin16](https://github.com/ilhamsholahuddin16) |
-| **Tahun** | 2026 |
 
 ---
-
-## 📄 Lisensi
-
-```
-MIT License
-
-Copyright (c) 2026 Ilham Sholahuddin
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
 ---
 
 <div align="center">
