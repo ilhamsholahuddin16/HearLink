@@ -215,15 +215,6 @@ Aplikasi memerlukan permission berikut:
 
 ---
 
-## 📱 Navigasi Aplikasi
-
-```
-╔══════════════════════════════════════════════════════╗
-║                                                🚨 SOS║
-║  🏠 Home  🎤 Caption  💬 Communicator  📚 Library  👤 Profile ║
-╚══════════════════════════════════════════════════════╝
-```
-
 ## 👨‍💻 Developer
 
 | | |
